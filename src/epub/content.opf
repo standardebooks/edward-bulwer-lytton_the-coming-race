@@ -43,37 +43,42 @@
 		<meta property="term" refines="#subject-4">sh2009120339</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2010117323</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">While exploring a mine, a man falls through a chasm into an underground world populated by a mysterious race.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;An engineer encounters a strange sight while exploring a mine, and reluctantly reports it to the narrator. The two go back and descend together, where an accident causes the narrator to fall through an opening and into a secret subterranean world. The inhabitants seem to be an offshoot of an ancient human race and have been living and evolving underground. They have command over a fluid called vril, which gives them great destructive as well as creative and healing powers. Because of their ability to destroy so easily, their society has developed into a very peaceful, utopian one. They do not eat or destroy animals, and only take life that is a threat to their community.&lt;/p&gt;
+			&lt;p&gt;These people call themselves the Vril-ya, and consider themselves to have a superior form of government that has developed over many ages. While our narrator considers his native United States a great society that all should be proud of, the Vril-ya dismiss it as “Koom-Posh” (their word for democracy), which in their view is government by the ignorant, and destined to fall into chaos. The above-ground world, with its achievements based often on rivalry and conflict, is in contrast to the world of the Vril-ya, where personal achievement and honors are not pursued.&lt;/p&gt;
+			&lt;p&gt;The unnamed narrator spends some time exploring this society, but thinks about how, if ever, he will return home. He unwittingly becomes the object of romantic interest, which puts his life in peril.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edward-bulwer-lytton"&gt;Edward Bulwer-Lytton&lt;/a&gt; was an English poet and author, and member of Parliament. He wrote many works over his lifetime. &lt;i&gt;The Coming Race&lt;/i&gt; was published anonymously in 1871, with other editions soon following in other cities around the world. This novel is considered an early form of science fiction, with its idea of an underground race that could take over the earth.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1951</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/cu31924030366458</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Coming_Race</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-bulwer-lytton_the-coming-race</meta>
 		<dc:creator id="author">Edward Bulwer-Lytton</dc:creator>
 		<meta property="file-as" refines="#author">Bulwer-Lytton, Edward</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Edward George Earle Lytton Bulwer-Lytton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Bulwer-Lytton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79032869</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Franz von Stuck</dc:contributor>
+		<meta property="file-as" refines="#artist">Stuck, Franz von</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Franz_von_Stuck</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82050633</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Fred Ihde</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Ihde, Fred</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
