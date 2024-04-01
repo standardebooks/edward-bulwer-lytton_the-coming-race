@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-bulwer-lytton/the-coming-race</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-04-01T23:01:18Z</dc:date>
+		<meta property="dcterms:modified">2024-04-01T23:01:18Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -46,16 +46,16 @@
 		<meta property="se:subject">Science Fiction</meta>
 		<dc:description id="description">While exploring a mine, a man falls through a chasm into an underground world populated by a mysterious race.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;An engineer encounters a strange sight while exploring a mine, and reluctantly reports it to the narrator. The two go back and descend together, where an accident causes the narrator to fall through an opening and into a secret subterranean world. The inhabitants seem to be an offshoot of an ancient human race and have been living and evolving underground. They have command over a fluid called vril, which gives them great destructive as well as creative and healing powers. Because of their ability to destroy so easily, their society has developed into a very peaceful, utopian one. They do not eat or destroy animals, and only take life that is a threat to their community.&lt;/p&gt;
-			&lt;p&gt;These people call themselves the Vril-ya, and consider themselves to have a superior form of government that has developed over many ages. While our narrator considers his native United States a great society that all should be proud of, the Vril-ya dismiss it as “Koom-Posh” (their word for democracy), which in their view is government by the ignorant, and destined to fall into chaos. The above-ground world, with its achievements based often on rivalry and conflict, is in contrast to the world of the Vril-ya, where personal achievement and honors are not pursued.&lt;/p&gt;
-			&lt;p&gt;The unnamed narrator spends some time exploring this society, but thinks about how, if ever, he will return home. He unwittingly becomes the object of romantic interest, which puts his life in peril.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edward-bulwer-lytton"&gt;Edward Bulwer-Lytton&lt;/a&gt; was an English poet and author, and member of Parliament. He wrote many works over his lifetime. &lt;i&gt;The Coming Race&lt;/i&gt; was published anonymously in 1871, with other editions soon following in other cities around the world. This novel is considered an early form of science fiction, with its idea of an underground race that could take over the earth.&lt;/p&gt;
+			&lt;p&gt;An engineer encounters a strange sight while exploring a mine, and reluctantly reports it to the narrator. The two descend into the mine together, but an accident causes the narrator to fall through a crevice and into a secret subterranean world. The inhabitants seem to be an offshoot of an ancient human race who have been living and evolving underground. They have command over a fluid called &lt;i&gt;vril&lt;/i&gt;, which gives them both great destructive and great creative and healing powers. Because of their ability to destroy so easily, their society has developed into a very peaceful, utopian one. They don’t eat or kill animals, and only take life that is a threat to their community.&lt;/p&gt;
+			&lt;p&gt;These people call themselves the Vril-ya, and consider themselves to have a superior form of government that has developed over many ages. While our narrator considers his native United States a great society that all should be proud of, the Vril-ya dismiss it as &lt;i&gt;Koom-Posh&lt;/i&gt; (their word for “democracy”), which in their view is government by the ignorant, and destined to collapse into chaos. The above-ground world, with its achievements based on rivalry and conflict, is in contrast to the world of the Vril-ya, where personal achievement and honors are not pursued.&lt;/p&gt;
+			&lt;p&gt;The narrator spends some time exploring this society, but thinks about how, if ever, he will return home. But before he can return, he unwittingly becomes the object of romantic interest—putting his life in peril.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Coming Race&lt;/i&gt; was published anonymously in 1871, and is considered one of the earliest works of science fiction.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1951</dc:source>
 		<dc:source>https://archive.org/details/cu31924030366458</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">52570</meta>
+		<meta property="se:reading-ease.flesch">49.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Vril</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-bulwer-lytton_the-coming-race</meta>
 		<dc:creator id="author">Edward Bulwer-Lytton</dc:creator>
@@ -86,6 +86,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
