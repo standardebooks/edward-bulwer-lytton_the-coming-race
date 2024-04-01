@@ -7,17 +7,22 @@ table{
 	margin: 1em auto;
 }
 
-table tr:first-child th{
-	padding: 0 0 0.5em 0;
-}
-
 table td,
 table th{
-	padding: 0 0.5em 0 0.5em;
+	padding: .5em;
 }
 
 table tr:first-child th:first-child,
 table td:nth-child(3){
 	border-right: 1px solid;
+	padding-right: 1em;
+}
+
+table td + th{
+	padding-left: 1em;
+}
+
+table th[scope="row"]{
+	text-align: right;
 }
 /* End grammar table formatting */
