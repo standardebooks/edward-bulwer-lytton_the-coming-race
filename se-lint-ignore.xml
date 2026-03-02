@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-5.xhtml">
-		<ignore>
-			<code>y-034</code>
+		<ignore code="y-034">
 			<reason>Match is non-English language.</reason>
 		</ignore>
 	</file>
