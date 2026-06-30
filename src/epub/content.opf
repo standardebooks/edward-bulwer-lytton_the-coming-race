@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edward-bulwer-lytton/the-coming-race</dc:identifier>
 		<dc:date>2024-04-01T23:01:18Z</dc:date>
 		<meta property="dcterms:modified">2024-04-01T23:01:18Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -44,7 +45,7 @@
 		<meta property="term" refines="#subject-4">sh2009120339</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2010117323</meta>
-		<meta property="se:subject">Science Fiction</meta>
+		<meta property="schema:genre">Science Fiction</meta>
 		<dc:description id="description">While exploring a mine, a man falls through a chasm into an underground world populated by a mysterious race.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;An engineer encounters a strange sight while exploring a mine, and reluctantly reports it to the narrator. The two descend into the mine together, but an accident causes the narrator to fall through a crevice and into a secret subterranean world. The inhabitants seem to be an offshoot of an ancient human race who have been living and evolving underground. They have command over a fluid called &lt;i&gt;vril&lt;/i&gt;, which gives them both great destructive and great creative and healing powers. Because of their ability to destroy so easily, their society has developed into a very peaceful, utopian one. They don’t eat or kill animals, and only take life that is a threat to their community.&lt;/p&gt;
@@ -55,22 +56,24 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1951</dc:source>
 		<dc:source>https://archive.org/details/cu31924030366458</dc:source>
-		<meta property="se:word-count">52490</meta>
-		<meta property="se:reading-ease.flesch">49.59</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Vril</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-bulwer-lytton_the-coming-race</meta>
+		<meta property="schema:wordCount">52490</meta>
+		<meta property="schema:educationalLevel">49.59</meta>
+		<link href="https://en.wikipedia.org/wiki/Vril" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/edward-bulwer-lytton_the-coming-race" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Edward Bulwer-Lytton</dc:creator>
 		<meta property="file-as" refines="#author">Bulwer-Lytton, Edward</meta>
-		<meta property="se:name.person.full-name" refines="#author">Edward George Earle Lytton Bulwer-Lytton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Bulwer-Lytton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79032869</meta>
+		<meta property="schema:alternateName" refines="#author">Edward George Earle Lytton Bulwer-Lytton</meta>
+		<link href="https://en.wikipedia.org/wiki/Edward_Bulwer-Lytton" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79032869.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Franz von Stuck</dc:contributor>
 		<meta property="file-as" refines="#artist">Stuck, Franz von</meta>
-		<meta property="se:name.person.full-name" refines="#author">Franz Ritter von Stuck</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Franz_von_Stuck</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82050633</meta>
+		<meta property="schema:alternateName" refines="#author">Franz Ritter von Stuck</meta>
+		<link href="https://en.wikipedia.org/wiki/Franz_von_Stuck" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82050633.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Fred Ihde</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Ihde, Fred</meta>
@@ -80,7 +83,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
+		<link href="https://www.linkedin.com/in/jason-livermore-b854a97" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -89,7 +92,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
